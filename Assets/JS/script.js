@@ -32,7 +32,6 @@ $(function () {
 
     storedTasks[hour] = input.trim();
     localStorage.setItem("storedTasks", JSON.stringify(storedTasks));
-    console.log(JSON.parse(localStorage.getItem("storedTasks"))[hour])
   });
   
   // code to apply the past, present, or future class to each time
